@@ -9,8 +9,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="net.rahmony.electronickitchen.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/image_logo"
+        android:src="@drawable/ic_launcher"
+        android:layout_marginTop="103dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
